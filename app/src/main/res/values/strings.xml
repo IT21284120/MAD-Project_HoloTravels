@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="heading">Transport</string>
+    <string name="category_1">Category 1</string>
+    <string name="click">click</string>
+    <string name="category">Category 1</string>
+    <string name="name1">Kamal</string>
+    <string name="price1">100 LKR per 1 Km</string>
+    <string name="number1">077 8899321</string>
+    <string name="addheading">Add New Car</string>
+    <string name="model">Model :</string>
+    <string name="vehicle_number">Vehicle Number :</string>
+    <string name="seat_capacity">Seat Capacity :</string>
+    <string name="price">Price :</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="name">Name :</string>
+    <string name="phone">Phone :</string>
+    <string name="email">Email :</string>
+    <string name="add_button">Add</string>
+
+</resources>

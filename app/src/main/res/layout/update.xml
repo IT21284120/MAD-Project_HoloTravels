@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:text="Update Details"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:translationX="8dp"
+        android:translationY="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="139dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="122dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50"
+        app:srcCompat="@drawable/keyboard_arrow_left" />
+
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/personal_details"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="159dp"
+        android:text="Update"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Model"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Vehicle Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Capacity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
