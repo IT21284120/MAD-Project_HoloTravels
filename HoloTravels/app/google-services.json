@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25173709135",
+    "project_id": "holo-travels-d6443",
+    "storage_bucket": "holo-travels-d6443.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25173709135:android:42821557b17ee511c2753a",
+        "android_client_info": {
+          "package_name": "com.example.holotravels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25173709135-8ms2nrlhgj1hbi44ikq9pcub079edrlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_tfOHUpAZQbyeBMe1_wsiyMEtcrKMKY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25173709135-8ms2nrlhgj1hbi44ikq9pcub079edrlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
