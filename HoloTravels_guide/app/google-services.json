@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849814726894",
+    "project_id": "holotravelsrealtime",
+    "storage_bucket": "holotravelsrealtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849814726894:android:c0d0bd0df4aa2f224d6bff",
+        "android_client_info": {
+          "package_name": "com.example.holotravels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849814726894-a6n9ebq06v1nraug5hc2ni3lmfeoiqd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDkt2joOc6gFvu6jugoDuy8cqzCXo8s9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849814726894-a6n9ebq06v1nraug5hc2ni3lmfeoiqd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
