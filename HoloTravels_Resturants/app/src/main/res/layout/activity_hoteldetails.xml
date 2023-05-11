@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HotelDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="403dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="4dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/TextView6"
+        android:layout_width="403dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="4dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="403dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="4dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="403dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="403dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="4dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="403dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="4dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="172dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <TextView
+        android:id="@+id/HotelDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HOTEL DETAILS"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="416dp"
+        android:text="Contact Details "
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="568dp"
+        android:text="Delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="568dp"
+        android:text="Update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="172dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
